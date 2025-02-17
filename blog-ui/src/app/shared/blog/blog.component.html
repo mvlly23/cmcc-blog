@@ -1,0 +1,30 @@
+<top-nav></top-nav>
+<div class="blog-page">
+    <div class="user-info">
+        <div class="avatar">
+            <img [src]="user.avatar.url" />
+        </div>
+        <div class="name">
+            {{ user.username }}
+        </div>
+    </div>
+    <div class="post-content">
+        <div class="image" *ngIf="post.image">
+            <img [src]="post.image!.url" />
+        </div>
+        <div class="title">
+            {{ post.title }}
+        </div>
+        <hr />
+        <div class="post-content">
+            <div *ngFor="let content of post.content.document;">
+                <div class="post-heading" *ngIf="content.type == 'heading'">
+                    {{ content.children[0]['text'] }}
+                </div>
+                <div class="post-text" *ngIf="content.type == 'paragraph'">
+                    {{ content.children[0]['text'] }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

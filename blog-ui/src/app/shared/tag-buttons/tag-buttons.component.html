@@ -1,0 +1,8 @@
+<div class="tag-buttons">
+    <div class="tag" *ngFor="let tag of tags;">
+        <button (click)="selectedTag(tag)">{{ tag.name }}</button>
+    </div>
+    <div class="clear">
+        <button (click)="clearTag()">Clear</button>
+    </div>
+</div>

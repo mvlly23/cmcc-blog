@@ -1,0 +1,11 @@
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    list-style: none;
+    padding-left: 15vw;
+    max-width: 80vw;
+    .post {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

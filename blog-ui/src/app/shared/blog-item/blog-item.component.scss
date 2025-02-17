@@ -1,0 +1,55 @@
+.link {
+    text-decoration: none;
+    .blog-card {
+        border-color: black;
+        border: 2px solid;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 300px;
+        min-height: 300px;
+        height: 400px;
+        overflow: auto;
+        background-color: #FFF;
+        display: grid;
+        .image {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+        }
+        .title {
+            font-family: "CaskaydiaCove NF SemiBold";
+            font-size: medium;
+            text-align: center;
+            color: black;
+        }
+        .separator {
+            display: block;
+        }
+        .info {
+            display: grid;
+            justify-self: flex-end;
+            width: 100%;
+            .css-is-annoying {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .publish {
+                    padding-left: 5px;
+                    font-family: "CaskaydiaCove NF Light";
+                    color: black;
+                }
+                .author {
+                    padding-right: 5px;
+                    font-family: "CaskaydiaCove NF Light";
+                    color: black;
+                }
+            }
+        }
+    }
+}

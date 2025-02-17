@@ -1,0 +1,33 @@
+.top-nav {
+    max-width: 100%;
+    background-color: #581845;
+    height: auto;
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    .logo a img {
+        object-fit: scale-down;
+        max-width: 100px;
+    }
+    .title {
+        font-family: "CaskaydiaCove NF";
+        font-size: xx-large;
+        color: whitesmoke;
+    }
+    .search-bar {
+        display: flex;
+        input {
+            border: 0;
+        }
+        img {
+            position: sticky;
+            max-height: 24px;
+            width: auto;
+            right: 50px;
+        }
+    }
+}

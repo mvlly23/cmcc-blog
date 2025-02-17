@@ -1,0 +1,55 @@
+.blog-page {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    .user-info {
+        width: 20vw;
+        padding-top: 20px;
+        height: 100%;
+        position: fixed;
+        .avatar {
+            width: 50%;
+            margin: 0 auto;
+            img {
+                margin: 0 auto;
+                max-height: 10vw;
+                width: 10vw;
+                border-radius: 50%;
+            }
+        }
+        .name {
+            font-family: "CaskaydiaCove NF Light";
+            font-size: medium;
+            text-align: center;
+        }
+    }
+    .post-content {
+        margin-left: 20vw;
+        width: 80vw;
+        .image {
+            display: flex;
+            justify-content: center;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .title {
+            font-family: "CaskaydiaCove NF";
+            font-size: xx-large;
+            text-align: center;
+        }
+        .post-heading {
+            font-family: "CaskaydiaCove NF";
+            font-size: larger;
+            margin-left: -15vw;
+        }
+        .post-text {
+            font-family: "CaskaydiaCove NF Light";
+            font-size: medium;
+            margin-left: -15vw;
+            white-space: initial;
+            max-width: 60vw;
+        }
+    }
+}

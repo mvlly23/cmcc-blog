@@ -1,0 +1,14 @@
+<div class="top-nav">
+    <div class="logo">
+        <a href="/"><img src="cmcc_logo_orig.png" /></a>
+    </div>
+    <div class="title">
+        Charlotte Metro Communist Club Blog
+    </div>
+    <form (submit)="searchPosts()">
+        <div class="search-bar">
+            <input class="search" type="text" [(ngModel)]="searchTerm" name="searchTerm" />
+            <img src="search-icon.png" />
+        </div>
+    </form>
+</div>

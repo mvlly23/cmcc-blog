@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "CaskaydiaCove NF";
+    src:    local("CaskaydiaCoveNerdFont-Bold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Bold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF";
+    src:    local("CaskaydiaCoveNerdFont-BoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF ExtraLight";
+    src:    local("CaskaydiaCoveNerdFont-ExtraLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF ExtraLight";
+    src:    local("CaskaydiaCoveNerdFont-ExtraLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF";
+    src:    local("CaskaydiaCoveNerdFont-Italic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Italic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF Light";
+    src:    local("CaskaydiaCoveNerdFont-Light"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Light.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF Light";
+    src:    local("CaskaydiaCoveNerdFont-LightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-LightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF";
+    src:    local("CaskaydiaCoveNerdFont-Regular"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF SemiBold";
+    src:    local("CaskaydiaCoveNerdFont-SemiBold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiBold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF SemiBold";
+    src:    local("CaskaydiaCoveNerdFont-SemiBoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiBoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF SemiLight";
+    src:    local("CaskaydiaCoveNerdFont-SemiLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NF SemiLight";
+    src:    local("CaskaydiaCoveNerdFont-SemiLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM";
+    src:    local("CaskaydiaCoveNerdFontMono-Bold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Bold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM";
+    src:    local("CaskaydiaCoveNerdFontMono-BoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-BoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM ExtraLight";
+    src:    local("CaskaydiaCoveNerdFontMono-ExtraLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM ExtraLight";
+    src:    local("CaskaydiaCoveNerdFontMono-ExtraLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM";
+    src:    local("CaskaydiaCoveNerdFontMono-Italic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Italic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM Light";
+    src:    local("CaskaydiaCoveNerdFontMono-Light"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Light.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM Light";
+    src:    local("CaskaydiaCoveNerdFontMono-LightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-LightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM";
+    src:    local("CaskaydiaCoveNerdFontMono-Regular"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Regular.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM SemiBold";
+    src:    local("CaskaydiaCoveNerdFontMono-SemiBold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM SemiBold";
+    src:    local("CaskaydiaCoveNerdFontMono-SemiBoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM SemiLight";
+    src:    local("CaskaydiaCoveNerdFontMono-SemiLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFM SemiLight";
+    src:    local("CaskaydiaCoveNerdFontMono-SemiLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP";
+    src:    local("CaskaydiaCoveNerdFontPropo-Bold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Bold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP";
+    src:    local("CaskaydiaCoveNerdFontPropo-BoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-BoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP ExtraLight";
+    src:    local("CaskaydiaCoveNerdFontPropo-ExtraLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP ExtraLight";
+    src:    local("CaskaydiaCoveNerdFontPropo-ExtraLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP";
+    src:    local("CaskaydiaCoveNerdFontPropo-Italic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Italic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP Light";
+    src:    local("CaskaydiaCoveNerdFontPropo-Light"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Light.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP Light";
+    src:    local("CaskaydiaCoveNerdFontPropo-LightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-LightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP";
+    src:    local("CaskaydiaCoveNerdFontPropo-Regular"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Regular.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP SemiBold";
+    src:    local("CaskaydiaCoveNerdFontPropo-SemiBold"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBold.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP SemiBold";
+    src:    local("CaskaydiaCoveNerdFontPropo-SemiBoldItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP SemiLight";
+    src:    local("CaskaydiaCoveNerdFontPropo-SemiLight"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLight.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CaskaydiaCove NFP SemiLight";
+    src:    local("CaskaydiaCoveNerdFontPropo-SemiLightItalic"),
+            url("./app/assets/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf") format("truetype");
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+}

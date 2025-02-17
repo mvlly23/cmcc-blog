@@ -1,0 +1,23 @@
+<a [href]="link" class="link">
+    <div class="blog-card">
+        <div class="image" *ngIf="post.image">
+            <img [src]="post.image!.url" />
+        </div>
+        <div class="title">
+            {{ post.title }}
+        </div>
+        <div class="separator">
+            <hr />
+        </div>
+        <div class="info">
+            <div class="css-is-annoying">
+                <div class="publish">
+                    {{ formatDate() }}
+                </div>
+                <div class="author">
+                    {{ post.author.username }}
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
