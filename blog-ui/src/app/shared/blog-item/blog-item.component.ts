@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, Input } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { Post } from "../../types/keystone.interface";
 import { CommonModule } from "@angular/common";
 
@@ -9,16 +9,11 @@ import { CommonModule } from "@angular/common";
     imports: [CommonModule]
 })
 
-export class BlogItem implements AfterViewInit {
+export class BlogItem {
     @Input() post!: Post;
-    link: string = '/blog/';
     
     formatDate(): string  {
         const date = new Date(this.post.publishedAt);
         return date.toLocaleDateString('en-US');
-    }
-
-    ngAfterViewInit(): void {
-        this.link += this.post.id
     }
 }

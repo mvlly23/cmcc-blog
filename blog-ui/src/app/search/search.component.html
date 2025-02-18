@@ -1,2 +1,3 @@
 <top-nav></top-nav>
+<tag-buttons [usePosts]="true" [posts]="posts" (tagSelected)="tagSelected($event)" (clearTags)="clearTags()"></tag-buttons>
 <blog-grid [posts]="posts"></blog-grid>
